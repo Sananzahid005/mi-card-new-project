@@ -1,0 +1,1 @@
+ /Users/apple/Documents/flutter_angelayu/mi_card_flutter/.dart_tool/flutter_build/1624e01df2c37854c33f239c38011567/native_assets.json: 

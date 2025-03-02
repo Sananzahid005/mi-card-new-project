@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
-void main(){
+
+void main() {
   runApp(MyApp());
 }
-class MyApp extends StatelessWidget{
+
+class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext){
-    return MaterialApp(
+  Widget build(BuildContext) {
+    return const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.tealAccent,
-        body: Container(
-          color: Colors.white,
+        body: SafeArea(
+            child: Column(
+          children: [
+            Text('my new project'),
+          ],
         ),
-
+        ),
       ),
     );
   }
